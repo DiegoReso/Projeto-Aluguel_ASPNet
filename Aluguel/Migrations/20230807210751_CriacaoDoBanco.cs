@@ -19,7 +19,7 @@ namespace Aluguel.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Recebedor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Fornecedor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FitaAlugada = table.Column<int>(type: "int", nullable: false),
+                    FitaAlugada = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DataAluguel = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>

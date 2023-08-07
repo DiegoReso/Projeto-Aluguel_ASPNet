@@ -8,7 +8,7 @@
 
         public string Fornecedor { get; set; }
 
-        public int FitaAlugada { get; set; }
+        public string FitaAlugada { get; set; }
 
         public DateTime DataAluguel { get; set; } = DateTime.Now;
     }
