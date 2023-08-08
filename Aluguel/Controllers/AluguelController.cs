@@ -20,5 +20,10 @@ namespace Aluguel.Controllers
             IEnumerable<EmprestimoModels> emprestimos = _db.Emprestimos;
             return View(emprestimos);  
         }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
     }
 }
