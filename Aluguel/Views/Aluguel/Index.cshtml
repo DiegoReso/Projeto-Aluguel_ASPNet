@@ -1,0 +1,48 @@
+﻿@model IEnumerable<EmprestimoModels>
+
+@{
+    ViewData["Title"] = "Aluguel";
+}
+
+<div class="container">
+
+    <div class="d-flex justify-content-between align-itens-center mb-5">
+
+        <h1>Alguel de Fitas</h1>
+        <a class="btn btn-success">Cadastrar novo Aluguel</a>
+
+    </div>
+
+<table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Recebedor</th>
+            <th scope="col">Fornecedor</th>
+            <th scope="col">Fita</th>
+            <th scope="col">Última atualização</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if(Model != null)
+        {
+
+            @foreach (var emprestimo in Model)
+            {
+                <tr>
+                    <th scope="row">@emprestimo.Recebedor</th>
+                    <td>@emprestimo.Fornecedor</td>
+                    <td>@emprestimo.FitaAlugada</td>
+                    <td>@emprestimo.DataAluguel</td>
+                </tr>
+
+            }
+        }
+
+      
+
+
+    </tbody>
+</table>
+
+</div>
