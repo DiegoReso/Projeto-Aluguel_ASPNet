@@ -25,5 +25,22 @@ namespace Aluguel.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Register(EmprestimoModels emprestimos)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Emprestimos.Add(emprestimos);
+                _db.SaveChanges();
+
+                return RedirectToAction("Index");
+
+            }
+
+            return View();
+        }
+
+
     }
 }

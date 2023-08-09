@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s/ErpOBiXgcc1c4Jev4XFQ7hX2Iz4PBqRp5e5OnuiUw=",
+  "Hash": "oe8M1gFWezcdbTYx9symt0X7jfq0RmOLIWZLQk+NDKA=",
   "Source": "Aluguel",
   "BasePath": "_content/Aluguel",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\diego\\Documents\\workspace\\c#\\Aluguel\\Aluguel\\wwwroot\\favicons.ico",
+      "SourceId": "Aluguel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\diego\\Documents\\workspace\\c#\\Aluguel\\Aluguel\\wwwroot\\",
+      "BasePath": "_content/Aluguel",
+      "RelativePath": "favicons.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicons.ico"
     },
     {
       "Identity": "C:\\Users\\diego\\Documents\\workspace\\c#\\Aluguel\\Aluguel\\wwwroot\\js\\site.js",

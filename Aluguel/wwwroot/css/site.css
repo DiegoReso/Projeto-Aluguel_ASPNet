@@ -15,4 +15,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-size: cover;
+  background-image: url(../bg.jpg);
+  color:white;
 }
